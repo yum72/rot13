@@ -1,6 +1,6 @@
 const rot13 = str => {
 
-    const inputStringArr = str.split('')
+    const inputStringArr = [...str]
 
     return inputStringArr.map(char => {
 
